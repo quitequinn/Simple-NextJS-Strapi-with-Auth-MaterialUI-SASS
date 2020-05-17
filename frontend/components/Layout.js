@@ -12,21 +12,23 @@ class Layout extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
+         userId: false
       };
    }
-
+   
    componentDidMount = () => {
       this.update();
    }
     
    update = () => {
+      if (Cookies.get("id")) this.setState({userId: Cookies.get("id")})
    }
     
 	render() {
 		
 		return (
 			<ThemeProvider theme={theme}>
-            { Cookies.get("id") ? (	
+            { this.state.userId ? (	
                <>
                   {	// Logged In
                      <>
