@@ -1,0 +1,25 @@
+{
+  "name": "Simple-NextJS-Strapi-with-Auth-MaterialUI-SASS",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "@material-ui/system": "^4.9.14",
+    "axios": "^0.19.2",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "next": "9.4.0",
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.5",
+    "strapi-sdk-javascript": "^0.3.3"
+  }
+}
